@@ -20,7 +20,7 @@ def square(sq_side):
 
     area = sq_side * sq_side
 
-    diagonal = sq_side * math.sqrt(2)   # diagonal = (2 ** 0.5) * sq_side
+    diagonal = sq_side * math.sqrt(2)   # diagonal = (2 ** 0.5) * sq_side  (без модуля math)
 
     return perimeter, area, diagonal
 
